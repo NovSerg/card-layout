@@ -12,7 +12,87 @@ body {
   background-color: #f5f5f5;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
+  .get-code {
+    width: 310px;
+  }
+  .code-wrapper {
+    width: 310px;
+  }
+  .card {
+    width: 310px;
+    height: 193.75px;
+  }
+  .card-front {
+    background: linear-gradient(45deg, #DDE3F2 0%, #FFFFFF 100%);
+    border-bottom: 3px solid #FF8C00;
+    box-shadow: 5.6px 6px 9.6px rgba(0, 0, 0, 0.03);
+    border-radius: 9px;
+  }
+  .card-back {
+    background: linear-gradient(45deg, #DDE3F2 0%, #FFFFFF 100%);
+    border-bottom: 3px solid #FF8C00;
+    box-shadow: 5.6px 6px 9.6px rgba(0, 0, 0, 0.03);
+    border-radius: 8.4px;
+  }
+  .cvv-wrapper {
+    width: 265.2px;
+    height: 40.4px;
+  }
+  .cvv-zebra {
+    width: 214.4px;
+  }
+  .zebra {
+    height: 5px;
+  }
+  .valid-thru {
+    width: 16.5px;
+    height: 11.5px;
+    left: 50%;
+    top: 69.3%;
+  }
+  .world {
+    width: 34.2px;
+    height: 10.2px;
+  }
+  .card-number {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.12em;
+    background: linear-gradient(180deg, #647895 17%, #1A2028 156.28%);
+    text-shadow: 0 0.5px 0.5px rgba(15, 23, 42, 0.1), 0 -2px 3px rgba(255, 255, 255, 0.1), 0 2px 3px rgba(16, 20, 30, 0.1);
+  }
+  .card-date {
+    height: 14px;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    background: linear-gradient(180deg, #647895 17%, #1A2028 156.28%);
+    text-shadow: 0 0.5px 0.5px rgba(15, 23, 42, 0.1), 0 -2px 3px rgba(255, 255, 255, 0.1), 0 2px 3px rgba(16, 20, 30, 0.1);
+  }
+  .cvv-block {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .card-title {
+    display: block;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 200px auto 0;
+  }
+}
+
+@media only screen and (max-width: 430px) and (min-width: 360px) {
+  .get-code {
+    width: 355px;
+  }
+  .code-wrapper {
+    width: 355px;
+  }
   .card {
     width: 355px;
     height: 220.5px;
@@ -80,7 +160,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 640px) and (min-width: 400px){
+@media only screen and (max-width: 640px) and (min-width: 430px){
+  .get-code {
+    width: 355px;
+  }
+  .code-wrapper {
+    width: 355px;
+  }
   .card {
     width: 385.2px;
     height: 230.2px;
@@ -149,6 +235,12 @@ body {
 }
 
 @media only screen and (min-width: 640px) {
+  .get-code {
+    width: 355px;
+  }
+  .code-wrapper {
+    width: 355px;
+  }
   .card {
     width: 642px;
     height: 383px;
@@ -279,9 +371,7 @@ body {
 .card-date {
   position: absolute;
   left: 55.45%;
-  /*right: 33.8%;*/
   top: 68.6%;
-  bottom: 20.63%;
   font-family: 'Museo Sans Cyrl', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -303,9 +393,7 @@ body {
 .cvv-wrapper {
   position: absolute;
   left: 6.23%;
-  right: 24.92%;
   top: 46.21%;
-  bottom: 37.08%;
   background: #D8DEEA;
   display: flex;
   justify-content: flex-start;
@@ -341,7 +429,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 355px;
   background: #FFFFFF;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
@@ -354,7 +441,7 @@ body {
   font-family: 'Museo Sans Cyrl', sans-serif;
   font-style: normal;
   text-align: center;
-  margin: 1.5rem 2rem 0 2rem;
+  margin: 1rem 1rem 0 1rem;
 }
 
 .code-wrapper {
@@ -365,7 +452,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 350px;
   background: #FFFFFF;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
@@ -461,315 +547,3 @@ body {
   color: #ffdba5;
   box-shadow: 0 2px 4px -1px rgba(255, 140, 0, 0.396935);
 }
-
-
-/*@font-face {*/
-/*  font-family: "Myseo Sans Cyrl";*/
-/*  src: url(../fonts/MuseoSansCyrl-700.woff);*/
-/*}*/
-
-/*body {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  height: 100vh;*/
-/*  width: 100vw;*/
-/*  margin: 0;*/
-/*  background-color: #f5f5f5;*/
-/*}*/
-
-/*!*.card-scale {*!*/
-/*!*  margin-top: 200px;*!*/
-/*!*  display: flex;*!*/
-/*!*  justify-content: center;*!*/
-/*!*  position: relative;*!*/
-/*!*}*!*/
-
-/*@media only screen and (max-width: 600px) {*/
-/*  !*.card-scale {*!*/
-/*  !*  transform: scale(0.7);*!*/
-/*  !*}*!*/
-/*}*/
-
-/*@media only screen and (max-width: 420px) {*/
-/*  !*.card-scale {*!*/
-/*  !*  transform: scale(0.55);*!*/
-/*  !*}*!*/
-/*}*/
-
-/*@media only screen and (max-width: 400px) {*/
-/*  !*.card-scale {*!*/
-/*  !*  transform: scale(0.5);*!*/
-/*  !*}*!*/
-/*}*/
-
-/*.card-container {*/
-/*  perspective: 2000px;*/
-/*  position: absolute;*/
-/*}*/
-
-/*.card {*/
-/*  position: relative;*/
-/*  width: 642px;*/
-/*  height: 383px;*/
-/*  transform-style: preserve-3d;*/
-/*  transition: transform 1s;*/
-/*}*/
-
-/*.card-face {*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*  position: absolute;*/
-/*  backface-visibility: hidden;*/
-/*}*/
-
-/*.card-front {*/
-/*  box-sizing: border-box;*/
-/*  background: linear-gradient(45deg, #DDE3F2 0%, #FFFFFF 100%);*/
-/*  border-bottom: 5px solid #FF8C00;*/
-/*  box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);*/
-/*  border-radius: 12px;*/
-/*}*/
-
-/*.card-back {*/
-/*  box-sizing: border-box;*/
-/*  background: linear-gradient(45deg, #DDE3F2 0%, #FFFFFF 100%);*/
-/*  border-bottom: 5px solid #FF8C00;*/
-/*  box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.05);*/
-/*  border-radius: 12px;*/
-/*  transform: rotateY(180deg);*/
-/*}*/
-
-/*.valid-thru {*/
-/*  position: absolute;*/
-/*  left: 50%;*/
-/*  right: 46.15%;*/
-/*  top: 70%;*/
-/*  bottom: 21.66%;*/
-/*  width: 29.24px;*/
-/*  height: 19.37px;*/
-/*}*/
-
-/*.world {*/
-/*  position: absolute;*/
-/*  left: 84.42%;*/
-/*  right: 6.84%;*/
-/*  top: 44%;*/
-/*  bottom: 48.61%;*/
-/*}*/
-
-/*.card-number {*/
-/*  position: absolute;*/
-/*  left: 6.7%;*/
-/*  top: 50%;*/
-/*  height: 35px;*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*  font-weight: 600;*/
-/*  font-size: 35px;*/
-/*  line-height: 38px;*/
-/*  letter-spacing: 0.23em;*/
-/*  background: linear-gradient(180deg, #647895 17%, #1A2028 156.28%);*/
-/*  -webkit-background-clip: text;*/
-/*  -webkit-text-fill-color: transparent;*/
-/*  background-clip: text;*/
-/*  text-fill-color: transparent;*/
-/*  text-shadow: 0 0.5px 0.5px rgba(15, 23, 42, 0.1), 0 -2px 3px rgba(255, 255, 255, 0.1), 0 2px 3px rgba(16, 20, 30, 0.1);*/
-/*}*/
-
-/*.card-date {*/
-/*  position: absolute;*/
-/*  left: 55.45%;*/
-/*  right: 33.8%;*/
-/*  top: 68.6%;*/
-/*  bottom: 20.63%;*/
-/*  height: 25px;*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*  font-weight: 600;*/
-/*  font-size: 25px;*/
-/*  line-height: 29px;*/
-/*  letter-spacing: 0.05em;*/
-/*  background: linear-gradient(180deg, #647895 17%, #1A2028 156.28%);*/
-/*  -webkit-background-clip: text;*/
-/*  -webkit-text-fill-color: transparent;*/
-/*  background-clip: text;*/
-/*  text-fill-color: transparent;*/
-/*  text-shadow: 0 0.5px 0.5px rgba(15, 23, 42, 0.1), 0 -2px 3px rgba(255, 255, 255, 0.1), 0 2px 3px rgba(16, 20, 30, 0.1);*/
-/*}*/
-
-/*.card-stripe {*/
-/*  position: absolute;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  top: 10.18%;*/
-/*  bottom: 68.41%;*/
-/*  background: #000000;*/
-/*}*/
-
-/*.cvv-wrapper {*/
-/*  position: absolute;*/
-/*  left: 6.23%;*/
-/*  right: 24.92%;*/
-/*  top: 46.21%;*/
-/*  bottom: 37.08%;*/
-/*  width: 442px;*/
-/*  height: 66px;*/
-/*  background: #D8DEEA;*/
-/*  display: flex;*/
-/*  justify-content: flex-start;*/
-/*}*/
-
-/*.cvv-zebra {*/
-/*  width: 363px;*/
-/*}*/
-
-/*.zebra {*/
-/*  height: 8px;*/
-/*}*/
-
-/*.zebra:nth-child(even) {*/
-/*  background-color: #B2BFD9;*/
-/*}*/
-
-/*.zebra:nth-child(odd) {*/
-/*  background-color: #909EB8;*/
-/*}*/
-
-/*.cvv-block {*/
-/*  display: flex;*/
-/*  flex-grow: 1;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*  font-weight: 600;*/
-/*  font-size: 24px;*/
-/*  line-height: 29px;*/
-/*  color: #475569;*/
-/*}*/
-
-/*.flipped {*/
-/*  transform: rotateY(180deg);*/
-/*}*/
-
-/*.get-code {*/
-/*  margin: 100px auto;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*  gap: 16px;*/
-/*  min-width: 355px;*/
-/*  max-width: 400px;*/
-/*  background: #FFFFFF;*/
-/*  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);*/
-/*  border-radius: 10px;*/
-/*  flex: none;*/
-/*  order: 1;*/
-/*  flex-grow: 0;*/
-/*}*/
-
-/*.code-wrapper {*/
-/*  margin: 100px auto;*/
-/*  box-sizing: border-box;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*  gap: 16px;*/
-/*  width: 350px;*/
-/*  background: #FFFFFF;*/
-/*  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);*/
-/*  border-radius: 10px;*/
-/*  flex: none;*/
-/*  order: 1;*/
-/*  flex-grow: 0;*/
-/*}*/
-
-/*.code {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*}*/
-
-/*.code-header {*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*}*/
-
-/*.inputs-wrapper {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  margin-bottom: 10px;*/
-/*  width: 205px;*/
-/*}*/
-
-/*.sms-code-input {*/
-/*  width: 100%;*/
-/*  border: 2px solid #E8E9EA;*/
-/*  border-radius: 10px;*/
-/*  text-align: center;*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*  font-size: 3rem;*/
-/*  letter-spacing: 5px;*/
-/*}*/
-
-/*.error {*/
-/*  border: 2px solid red;*/
-/*}*/
-
-/*.error-message {*/
-/*  color: red;*/
-/*  font-size: 1rem;*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*  font-weight: 600;*/
-/*  line-height: 1.5rem;*/
-/*  text-align: center;*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*  margin-top: 5px;*/
-/*}*/
-
-/*.sms-code-input:focus {*/
-/*  outline: none;*/
-/*  border: 2px solid #FF8C00;*/
-/*}*/
-
-/*.submit {*/
-/*  border: none;*/
-/*  align-self: center;*/
-/*  display: flex;*/
-/*  flex-direction: row;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*  padding: 11px 32px;*/
-/*  margin: 20px auto 20px;*/
-/*  color: #FFFFFF;*/
-/*  height: 40px;*/
-/*  cursor: pointer;*/
-/*  background: #FF8C00;*/
-/*  border-radius: 74px;*/
-/*  font-family: 'Museo Sans Cyrl', sans-serif;*/
-/*  font-style: normal;*/
-/*  font-weight: 400;*/
-/*  font-size: 15px;*/
-/*  line-height: 16px;*/
-/*  flex: none;*/
-/*  order: 0;*/
-/*  flex-grow: 0;*/
-/*}*/
-
-/*.submit:hover {*/
-/*  background: #ff9900;*/
-/*  border: none;*/
-/*  outline: none;*/
-/*}*/
-
-/*.submit:active {*/
-/*  background: #f49300;*/
-/*  color: #ffdba5;*/
-/*  box-shadow: 0 2px 4px -1px rgba(255, 140, 0, 0.396935);*/
-/*}*/
