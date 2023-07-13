@@ -5,20 +5,20 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/card.css' />
+    <title>Auth</title>
+    <link rel='stylesheet' href='./css/card.css' />
 </head>
 <body>
 <div class="container">
     <main role="main" class="pb-3">
         <div class="code-wrapper">
-            <form id="sms-form" class="code" method="post" action="/auth/confirm">
+            <span id="sms-form" class="code">
                 <h3 class="code-header">Вам отправлен 4-значный код:</h3>
                 <div class="inputs-wrapper">
                     <input name="input" class="sms-code-input" type="tel" inputmode="numeric" maxlength="4" autofocus>
                 </div>
-                <button class="submit">Подтвердить</button>
-            </form>
+                <button class="submit" onclick="document.location.href='./card.html'">Подтвердить</button>
+            </span>
         </div>
     </main>
 </div>
