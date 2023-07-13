@@ -14,7 +14,7 @@ body {
 
 @media only screen and (max-width: 400px) {
   .card {
-    width: 330px;
+    width: 355px;
     height: 220.5px;
   }
   .card-front {
@@ -82,8 +82,8 @@ body {
 
 @media only screen and (max-width: 640px) and (min-width: 400px){
   .card {
-    width: 385.2px;
-    height: 230.2px;
+    width: 380px;
+    height: 230px;
   }
   .card-front {
     background: linear-gradient(45deg, #DDE3F2 0%, #FFFFFF 100%);
