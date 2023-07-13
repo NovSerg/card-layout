@@ -69,6 +69,15 @@ body {
     font-size: 16px;
     line-height: 16px;
   }
+  .card-title {
+    display: block;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 200px auto 0;
+  }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 400px){
@@ -127,6 +136,15 @@ body {
   .cvv-block {
     font-size: 18px;
     line-height: 18px;
+  }
+  .card-title {
+    display: block;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 200px auto 0;
   }
 }
 
@@ -188,10 +206,20 @@ body {
     font-size: 24px;
     line-height: 29px;
   }
+  .card-title {
+    display: block;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    margin: 200px auto 0;
+  }
 }
 
+
 .card-container {
-  margin-top: 200px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   perspective: 2000px;
